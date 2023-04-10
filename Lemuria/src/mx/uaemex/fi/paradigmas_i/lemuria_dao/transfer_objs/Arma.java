@@ -1,25 +1,20 @@
-package mx.uaemex.fi.paradigmas_i.lumuria_dao.daos;
+package mx.uaemex.fi.paradigmas_i.lemuria_dao.transfer_objs;
 
-import java.util.List;
-
-import mx.uaemex.fi.paradigmas_i.lemuria_dao.transfer_objs.Sala;
-
-public interface SalasDAO {
+public class Arma extends Item {
 /**************************************************************************************
  * 
  * 									ATRIBUTOS
  * 
 *************************************************************************************/
+
 		
 /**************************************************************************************
 * 
 * 									METODOS
 * 
 *************************************************************************************/
-	public void create();
-	public Sala read (Sala s);
-	public List<Sala> read();
-	public void update(Sala s);
-	public void delete(Sala s);
+	
+	public Arma() {
+	}
 
 }

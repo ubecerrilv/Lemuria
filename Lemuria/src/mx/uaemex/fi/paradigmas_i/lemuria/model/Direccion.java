@@ -1,25 +1,19 @@
-package mx.uaemex.fi.paradigmas_i.lumuria_dao.daos;
+package mx.uaemex.fi.paradigmas_i.lemuria.model;
 
-import java.util.List;
-
-import mx.uaemex.fi.paradigmas_i.lemuria_dao.transfer_objs.Sala;
-
-public interface SalasDAO {
+public class Direccion {
 /**************************************************************************************
  * 
  * 									ATRIBUTOS
  * 
 *************************************************************************************/
+	private static final int ARRIBA = 0;
+	private static final int ABAJO = 0;
+	private static final int DERECHA = 0;
+	private static final int IZQUIERDA = 0;
 		
 /**************************************************************************************
 * 
 * 									METODOS
 * 
 *************************************************************************************/
-	public void create();
-	public Sala read (Sala s);
-	public List<Sala> read();
-	public void update(Sala s);
-	public void delete(Sala s);
-
 }

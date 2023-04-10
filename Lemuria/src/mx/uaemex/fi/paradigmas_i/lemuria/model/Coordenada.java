@@ -1,25 +1,36 @@
-package mx.uaemex.fi.paradigmas_i.lumuria_dao.daos;
+package mx.uaemex.fi.paradigmas_i.lemuria.model;
 
-import java.util.List;
-
-import mx.uaemex.fi.paradigmas_i.lemuria_dao.transfer_objs.Sala;
-
-public interface SalasDAO {
+public class Coordenada {
 /**************************************************************************************
  * 
  * 									ATRIBUTOS
  * 
 *************************************************************************************/
+	private int x;
+	private int y;
 		
 /**************************************************************************************
 * 
 * 									METODOS
 * 
 *************************************************************************************/
-	public void create();
-	public Sala read (Sala s);
-	public List<Sala> read();
-	public void update(Sala s);
-	public void delete(Sala s);
+	public Coordenada() {
+	}
 
+	public int getX() {
+		return x;
+	}
+
+	public void setX(int x) {
+		this.x = x;
+	}
+
+	public int getY() {
+		return y;
+	}
+	
+	public void setY(int y) {
+		this.y = y;
+	}
+	
 }

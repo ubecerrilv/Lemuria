@@ -1,4 +1,4 @@
-package mx.uaemex.fi.paradigmas_i.lumuria_dao_transfer_ojs;
+package mx.uaemex.fi.paradigmas_i.lemuria_dao.transfer_objs;
 
 public class Sala extends ElementoConNombre {
 /**************************************************************************************
@@ -6,12 +6,12 @@ public class Sala extends ElementoConNombre {
  * 									ATRIBUTOS
  * 
 *************************************************************************************/
-	private String masSiOsare;
-	private String coso;
+	private Enemigo masSiOsare;
+	private Item coso;
 		
 /**************************************************************************************
 * 
-* 									METODODOS
+* 									METODOS
 * 
  *************************************************************************************/
 
@@ -21,22 +21,22 @@ public class Sala extends ElementoConNombre {
 	public Sala(String n) {
 	}
 	
-	public Sala(String c, String enemigo, String item) {
+	public Sala(String c, Enemigo enemigo, Item item) {
 	}
 
-	public String getMasSiOsare() {
+	public Enemigo getMasSiOsare() {
 		return masSiOsare;
 	}
 
-	public void setMasSiOsare(String masSiOsare) {
+	public void setMasSiOsare(Enemigo masSiOsare) {
 		this.masSiOsare = masSiOsare;
 	}
 
-	public String getCoso() {
+	public Item getCoso() {
 		return coso;
 	}
 
-	public void setCoso(String coso) {
+	public void setCoso(Item coso) {
 		this.coso = coso;
 	}
 	

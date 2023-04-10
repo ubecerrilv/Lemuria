@@ -1,4 +1,4 @@
-package mx.uaemex.fi.paradigmas_i.lumuria_dao_transfer_ojs;
+package mx.uaemex.fi.paradigmas_i.lemuria_dao.transfer_objs;
 
 public abstract class ElementoConNombre {
 /**************************************************************************************
@@ -12,7 +12,7 @@ public abstract class ElementoConNombre {
 	
 /**************************************************************************************
 * 
-* 									METODODOS
+* 									METODOS
 * 
  *************************************************************************************/
 public ElementoConNombre() {

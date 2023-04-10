@@ -1,25 +1,18 @@
-package mx.uaemex.fi.paradigmas_i.lumuria_dao.daos;
+package mx.uaemex.fi.paradigmas_i.lemuria_dao.transfer_objs;
 
-import java.util.List;
-
-import mx.uaemex.fi.paradigmas_i.lemuria_dao.transfer_objs.Sala;
-
-public interface SalasDAO {
+public class TiposPocion {
 /**************************************************************************************
  * 
  * 									ATRIBUTOS
  * 
 *************************************************************************************/
+	public static final int VIDA = 0;
+	public static final int PODER = 0;
+	public static final int DEFENSA = 0;
 		
 /**************************************************************************************
 * 
 * 									METODOS
 * 
 *************************************************************************************/
-	public void create();
-	public Sala read (Sala s);
-	public List<Sala> read();
-	public void update(Sala s);
-	public void delete(Sala s);
-
 }

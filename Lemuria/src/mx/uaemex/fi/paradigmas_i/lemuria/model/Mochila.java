@@ -1,25 +1,32 @@
-package mx.uaemex.fi.paradigmas_i.lumuria_dao.daos;
+package mx.uaemex.fi.paradigmas_i.lemuria.model;
 
 import java.util.List;
 
-import mx.uaemex.fi.paradigmas_i.lemuria_dao.transfer_objs.Sala;
+import mx.uaemex.fi.paradigmas_i.lemuria_dao.transfer_objs.Item;
 
-public interface SalasDAO {
+public class Mochila {
 /**************************************************************************************
  * 
  * 									ATRIBUTOS
  * 
 *************************************************************************************/
+	private int capacidad;
+	private List<Item> inventario;
 		
 /**************************************************************************************
 * 
 * 									METODOS
 * 
 *************************************************************************************/
-	public void create();
-	public Sala read (Sala s);
-	public List<Sala> read();
-	public void update(Sala s);
-	public void delete(Sala s);
+	public Mochila(int cap) {
+		this.capacidad=cap;
+	}
 
+	public Item sacar(Item i) {
+		return null;
+	}
+	
+	public void guardar (Item i) {
+		
+	}
 }
