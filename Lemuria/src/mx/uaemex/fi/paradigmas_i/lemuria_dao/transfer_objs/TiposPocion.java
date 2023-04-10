@@ -6,9 +6,9 @@ public class TiposPocion {
  * 									ATRIBUTOS
  * 
 *************************************************************************************/
-	public static final int VIDA = 0;
-	public static final int PODER = 0;
-	public static final int DEFENSA = 0;
+	public static final int VIDA = 1;
+	public static final int PODER = 2;
+	public static final int DEFENSA = 3;
 		
 /**************************************************************************************
 * 

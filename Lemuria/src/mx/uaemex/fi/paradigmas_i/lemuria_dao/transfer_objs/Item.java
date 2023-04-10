@@ -36,6 +36,11 @@ public abstract class Item extends ElementoConNombre {
 
 	@Override
 	public boolean equals (Object o) {
-		return false;
+		Item i = (Item)o;
+		if(this.nombre.compareTo(i.nombre)==0) {
+			return true;
+		}else {
+			return false;
+		}
 	}
 }
